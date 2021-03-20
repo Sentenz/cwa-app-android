@@ -300,7 +300,7 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$coroutineVersion"
     testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutineVersion"
-    testImplementation "org.jetbrains.kotlin:kotlin-reflect:1.4.21"
+    testImplementation "org.jetbrains.kotlin:kotlin-reflect:1.4.31"
     androidTestImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutineVersion"
 
     // ANDROID STANDARD
@@ -315,11 +315,11 @@ dependencies {
     implementation 'androidx.preference:preference-ktx:1.1.1'
     implementation 'androidx.work:work-runtime-ktx:2.5.0'
 
-    implementation 'androidx.lifecycle:lifecycle-common-java8:2.2.0'
-    implementation 'androidx.lifecycle:lifecycle-process:2.2.0'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-common-java8:2.3.0'
+    implementation 'androidx.lifecycle:lifecycle-process:2.3.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.0'
 
     implementation 'androidx.annotation:annotation:1.1.0'
     implementation "androidx.recyclerview:recyclerview:1.1.0"
@@ -384,18 +384,18 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:truth:1.3.0'
     androidTestImplementation 'androidx.work:work-testing:2.5.0'
     androidTestImplementation "io.mockk:mockk-android:1.10.4"
-    debugImplementation 'androidx.fragment:fragment-testing:1.2.5'
+    debugImplementation 'androidx.fragment:fragment-testing:1.3.1'
     debugImplementation 'androidx.test:core-ktx:1.3.0'
 
     androidTestImplementation 'tools.fastlane:screengrab:2.0.0'
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 
     // Play Services
-    implementation 'com.google.android.play:core:1.9.0'
-    implementation 'com.google.android.gms:play-services-base:17.5.0'
-    implementation 'com.google.android.gms:play-services-basement:17.5.0'
+    implementation 'com.google.android.play:core:1.10.0'
+    implementation 'com.google.android.gms:play-services-base:17.6.0'
+    implementation 'com.google.android.gms:play-services-basement:17.6.0'
     implementation 'com.google.android.gms:play-services-safetynet:17.0.0'
-    implementation 'com.google.android.gms:play-services-tasks:17.2.0'
+    implementation 'com.google.android.gms:play-services-tasks:17.2.1'
 
     // HTTP
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -422,7 +422,7 @@ dependencies {
     implementation 'joda-time:joda-time:2.10.6'
 
     // SECURITY
-    implementation "androidx.security:security-crypto:1.0.0-rc03"
+    implementation "androidx.security:security-crypto:1.1.0-alpha03"
     implementation 'net.zetetic:android-database-sqlcipher:4.4.0'
     implementation 'org.conscrypt:conscrypt-android:2.5.1'
 
